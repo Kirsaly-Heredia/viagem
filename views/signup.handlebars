@@ -1,0 +1,35 @@
+<form class="ui form" action="/signup" method="post" enctype="multipart/form-data" >
+  <h1>Welcome!</h1>
+  <p>Tell Us About Yourself</p>
+ 
+  <div class="signup_fields">
+    <!--Name&username-->
+    <div class="fields">
+      <div class="four wide field">
+        <label>Full Name</label>
+        <input placeholder="Full Name" name="name" type="text">
+      </div>
+      <div class="four wide field">
+        <label>Username</label>
+        <input placeholder="Username" name="username" type="text">
+      </div>
+    </div>
+
+    <!--password&img-->
+    <div class="fields">
+      <div class="four wide field">
+        <label>Password</label>
+        <input type="password" name="password">
+      </div>
+      <div class="four wide field">
+        <label>Profile Picture</label>
+        <input type="file" name="propic" accepts="image/*"> 
+      </div>
+    </div>
+  </div>
+  
+  <button class="ui blue submit button" type="submit">Signup</button>
+  <div class="ui error message"></div>
+</form>
+
+<p>Have an account? <a href="/">Log In</a></p>

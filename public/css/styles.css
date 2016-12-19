@@ -1,0 +1,86 @@
+form{
+  margin-top: 30px;
+}
+
+label{
+  float: left;
+}
+
+h1.logo{
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: #fff;
+  margin: 10px 0px 10px 10px;
+}
+
+footer{
+  width: 100%;
+  background-color: #111111;
+  color: #fff;
+  height: 100px;
+}
+
+p.copy{
+  margin-top: 40px;
+  text-align: center;
+}
+
+p.about{
+  width: 700px;
+  line-height: 2em;
+}
+
+div.add{
+  background-color: dodgerblue;  
+  width: 50px; height: 50px;
+  border-radius: 100px;
+  padding-top: 13px;
+  z-index: 10;
+  position: fixed;
+  top: 120px; right: 40px;
+}
+
+b{
+  color: #fff;
+  font-size: 50px;
+}
+
+div.mix{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+div.search{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div.login_fields{
+  padding-left: 580px;
+  margin-bottom: 30px;
+}
+
+div.signup_fields{
+  padding-left: 440px;
+  margin-bottom: 30px;
+}
+
+div.add_fields{
+  padding-left: 440px;
+  margin-bottom: 30px;
+}
+
+p.about{
+  width:1190px;
+  padding-left:180px;
+  font-size: 16px;
+}
+
+div.search_bar{
+  display: inline-block;
+}
+
+div.controls{
+  display: inline-block;
+}

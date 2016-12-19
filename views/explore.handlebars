@@ -1,0 +1,43 @@
+<div class="item search">
+  <div class="ui icon input">
+    <input class="search_bar" type="text" placeholder="Search...">
+    <i class="search link icon"></i>
+  </div>
+  
+  <div class="controls">
+    <button class="medium ui blue button" data-filter="*">
+      All
+    </button>
+    <button class="medium ui blue button sort" data-filter=".parks">
+      Parks
+    </button>
+    <button class="medium ui blue button sort" data-filter=".sights">
+      Sights
+    </button>
+    <button class="medium ui blue button sort" data-filter=".museums">
+      Museums
+    </button>
+    <button class="medium ui blue button sort" data-filter=".food">
+      Food
+    </button>
+    <button class="medium ui blue button sort" data-filter=".entertainment">
+      Entertainment
+    </button>
+    <button class="medium ui blue button sort" data-filter=".other">
+      Other
+    </button>
+  </div>
+</div>
+
+{{#if user}}
+  <a href="/add">
+    <div class="add"><b>+</b></div>
+  </a>
+{{/if}}
+
+<div class="container">
+  {{#each posts}}
+  {{> post }}
+{{/each}}
+</div>
+
